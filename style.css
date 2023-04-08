@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:'Verdana';
+}
+
+/*-------------------HEADER-------------------*/
+header{
+    background-color: #FFD900;
+    padding:30px 0 30px 60px;
+}
+    header img{
+        width:180px;
+    }
+
+/*-------------------MAIN-------------------*/    
+#container {
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns:1fr;
+}
+    section {
+        padding:5%;
+        text-align: center;
+        background-color: #514988;
+    }
+        section h1{
+            font-size:70px;
+            color:#F3C61F;
+            margin-bottom:25px;
+        }
+        section h2{
+            color:white;
+            font-size:30px;
+            margin-bottom:50px;
+        }
+        section p{
+            font-family:'Verdana';
+            font-weight:normal;
+            word-wrap: break-word;
+            font-size:30px;
+            max-width:700px;
+            margin-left:62px;
+            color:white;
+        }
+
+/*-------------------ASIDE-------------------*/
+
+aside{
+    display:flex;
+    flex-direction: column;
+}
+    #countDown{
+        padding-left:25px;
+        padding-top:30px;
+        display:grid;
+        grid-auto-flow: column;
+        grid-auto-columns:1fr;
+
+        justify-items: center;
+    }
+        #countDown div{
+            display:grid;
+            grid-auto-flow: column; 
+        }
+        #countDown h1{
+            font-size:70px;
+            color:#514988;  
+        }
+        #countDown p{
+            font-size: 70px;
+            font-family:'Verdana';
+            color:#514988;
+            font-weight:700;
+        }
+        #miniHeader{
+            text-align:center;
+            color:#E33881;
+            font-weight:500;
+            font-size:23px;
+            
+        }
+        #video {
+            padding:2%;
+        }
+        
+/*-------------------FOOTER-------------------*/
+
+footer{
+    display:flex;
+    
+}
+    #footer-container {
+        padding:15px 0 20px 70px;
+    }
+    #footer-container h2{
+        text-align:center;
+        font-size:32px;
+        margin-bottom:15px;
+        color:#F3C61F;
+    }
+    #footer-container img{
+        width:230px;
+    }
+
+    #botao {
+        align-self: center;
+    }
+    button {
+        width:600px;
+        height:150px;
+        border:none;
+        border-radius:10px;
+        background-color: #514988;
+        color:white;
+        font-size:45px;
+        font-weight:700;
+        margin-top:40px;
+        margin-left:100px;
+        cursor:pointer;
+        
+    }
+        button:hover{
+            color:#F3C61F;
+        }
